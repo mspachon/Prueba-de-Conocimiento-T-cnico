@@ -1,0 +1,48 @@
+-----------------------Para ingresar a la base de datos en Xampp---------------------------------
+
+1-Inicia el servidor XAMPP: Abre el Panel de Control de XAMPP y haz clic en los botones "Start" o "Start All" para iniciar 
+los servicios del servidor web y de la base de datos.
+
+2-Abre el navegador web: Abre tu navegador web preferido (por ejemplo, Google Chrome, Mozilla Firefox).
+
+3-Accede a phpMyAdmin: En la barra de direcciones del navegador, ingresa la siguiente URL: http://localhost/phpmyadmin/. 
+Esto te llevará a la interfaz de administración de phpMyAdmin, que es una herramienta popular para administrar bases 
+de datos MySQL.
+
+4-Inicia sesión en phpMyAdmin: Si no se te redirige automáticamente a la página de inicio de sesión, deberías ver la página 
+de inicio de phpMyAdmin. Ingresa el nombre de usuario y la contraseña de tu base de datos MySQL. Por defecto, el nombre 
+de usuario es "root" y la contraseña está en blanco. Si has configurado una contraseña, ingrésala aquí.
+
+5-En la página principal de phpMyAdmin, en el panel izquierdo, encontrarás una sección llamada "Bases de datos". 
+Haz clic en el enlace "Nueva" que se encuentra junto a esta sección.
+
+6-Aparecerá un campo para ingresar el nombre de la nueva base de datos. Escribe "ejercicio5" en ese campo.
+
+7-Asegúrate de que la opción "Collation" esté configurada en "utf8_general_ci" (o elige una opción diferente si lo deseas).
+
+8-Haz clic en el botón "Crear" para crear la base de datos "ejercicio5".
+
+9-En la parte superior de la página, selecciona la pestaña "Importar".
+
+10-En la sección "Archivo a importar", haz clic en el botón "Examinar" y selecciona el archivo de la tabla que deseas importar
+desde tu sistema de archivos en este caso seria "estudiantes.bd el cual esta en la carpeta Problem 5 - Databases".
+
+11-Asegúrate de que las opciones de importación estén configuradas correctamente. Por lo general, las opciones predeterminadas 
+funcionan bien, pero puedes ajustarlas según tus necesidades.
+
+12-Haz clic en el botón "Continuar" para iniciar la importación de la tabla.
+
+---------------Para ejecutar el ejercicio---------------------------------
+
+1-Abre el Explorador de archivos en tu sistema operativo y navega hasta la carpeta que deseas copiar.
+
+2-Haz clic derecho en la carpeta y selecciona la opción "Copiar" en el menú desplegable.
+
+3-Navega hasta el directorio de instalación de XAMPP en tu sistema. Por defecto, en Windows, suele ser "C:\xampp".
+
+4-Dentro del directorio de instalación de XAMPP, busca la carpeta "htdocs". Esta carpeta es el directorio raíz para el servidor web de XAMPP, 
+donde puedes colocar los archivos que deseas ejecutar en este caso pegaremos la carpeta "Problem 5 - Databases".
+
+5-Haz clic derecho en la carpeta "htdocs" y selecciona la opción "Pegar" en el menú desplegable. Esto pegará la carpeta copiada dentro de la carpeta "htdocs".
+
+6-Abre tu navegador web y accede a la URL "http://localhost/Problem%205%20-%20Databases/consulta.php" en la barra de direcciones.
