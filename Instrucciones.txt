@@ -1,0 +1,28 @@
+1. Instalación:
+   - Asegúrate de tener Python instalado en tu sistema.
+   Puedes descargarlo desde el sitio oficial de Python (https://www.python.org) 
+   e instalarlo siguiendo las instrucciones correspondientes a tu sistema operativo.
+
+2. Editor de texto:
+   - Abre un editor de texto o un entorno de desarrollo como Visual Studio Code, 
+    PyCharm, Sublime Text o cualquier otro que prefieras.
+
+3. Ejecución del código desde la línea de comandos:
+   - Abre una terminal o línea de comandos en tu sistema operativo.
+
+   - Navega hasta el directorio donde se encuentran los archivos Python utilizando el comando `cd`. 
+   Por ejemplo, si el archivo está en el escritorio, puedes usar el comando `cd Desktop` para acceder a ese directorio.
+
+   - Una vez que estés en el directorio correcto, ejecuta el comando `python nombre_del_archivo.py` en la terminal.
+
+   - Presiona Enter para ejecutar el código. El resultado se mostrará en la terminal.
+
+4. Ejecución del código desde un entorno de desarrollo:
+   - Abre tu entorno de desarrollo preferido, como Visual Studio Code, PyCharm u otro.
+
+   - Abre el archivo Python que has creado.
+
+   - Utiliza la opción "Run" (Ejecutar) o el atajo de teclado correspondiente para ejecutar el código. 
+   Cada entorno de desarrollo tiene sus propias opciones y atajos de teclado para ejecutar el código.
+
+   - El resultado se mostrará en la ventana de salida del entorno de desarrollo.
